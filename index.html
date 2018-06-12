@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+		<h1>Memory Game</h1>
+		<div class="star-container">
+			<div class="star-rating">Rating: 
+				<img class="star" src="img/star.svg" alt="star-rating" width="25px">
+				<img class="star" src="img/star.svg" alt="star-rating" width="25px">
+				<img class="star" src="img/star.svg" alt="star-rating" width="25px">
+			</div>
+			<div class="counter">Moves: </div>
+			<div ><img class="reset" src="img/reset.svg" width="40px" alt="reset game"></div>
+		</div>
+		<main class="board">
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="clock" src="img/clock.svg" alt="alarm icon" width="50px"></figure>
+			</div>
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="clock" src="img/clock.svg" alt="alarm icon" width="50px"></figure>
+			</div>		
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="light" src="img/light.svg" alt="camera icon" width="50px"></figure>
+			</div>
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="light" src="img/light.svg" alt="camera icon" width="50px"></figure>
+			</div>
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="link" src="img/link.svg" alt="email icon" width="50px"></figure>
+			</div>
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="link" src="img/link.svg" alt="email icon" width="50px"></figure>
+			</div>		
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="lock" src="img/lock.svg" alt="settings icon" width="50px"></figure>
+			</div>
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="lock" src="img/lock.svg" alt="settings icon" width="50px"></figure>
+			</div>
+				<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="small" src="img/small.svg" alt="phone icon" width="50px"></figure>
+			</div>
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="small" src="img/small.svg" alt="phone icon"  width="50px"></figure>
+			</div>		
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="music" src="img/music.svg" alt="notification icon" width="50px"></figure>
+			</div>
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="music" src="img/music.svg" alt="notification icon" width="50px"></figure>
+			</div>
+				<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="micro" src="img/micro.svg" alt="clip icon" width="50px"></figure>
+			</div>
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="micro" src="img/micro.svg" alt="clip icon" width="50px"></figure>
+			</div>		
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="power" src="img/power.svg" alt="folder icon" width="50px"></figure>
+			</div>
+			<div class="card">
+				<figure class="front"></figure>
+				<figure class="back"><img class="power" src="img/power.svg" alt="folder icon" width="50px"></figure>
+			</div>
+		</main>
+		<div class="frame" id="frame">
+			<div class="frame-close" id="frameClose">&times;</div>
+			<h2 class="frame-heading">Congratulations</h2>
+			<p class="timer"></p>
+			<p class="moves"></p>
+			<p class="rating">Your star rating: </p>
+			<div class="button-container">
+				<button class="play-again" id="playAgain">Play Again?</button>
+			</div>
+		</div>
+		<div class="frame-overlay" id="frameOverlay"></div>
+		<script src="js/app.js"></script>
+  </body>
+
+</html>
